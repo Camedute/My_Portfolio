@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { garage } from './Components/garage';
+import { house } from './Components/house';
+import { kite } from './Components/kite';
+import { tree } from './Components/tree';
 
 function App() {
   return (
@@ -17,7 +21,12 @@ function App() {
         >
           Learn React
         </a>
+        <p>{garage}</p>
+      <p>{house}</p>
+      <p>{kite}</p>
+      <p>{tree}</p>
       </header>
+      
     </div>
   );
 }
